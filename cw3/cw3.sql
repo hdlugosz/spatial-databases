@@ -42,9 +42,10 @@ INSERT INTO airportsNew(name,elev,geom) VALUES
 (
 	'airportB',
 	10000,
-	(SELECT ST_Centroid(ST_ShortestLine(west_airport.geom, east_airport.geom))
-		FROM airportsNew as west_airport, airportsNew as east_airport
-		WHERE west_airport.name LIKE 'ANNETTE ISLAND' AND east_airport.name LIKE 'ATKA')
+	(SELECT ST_Centroid(
+		ST_ShortestLine(
+			(SELECT geom FROM airportsNew WHERE name LIKE 'ANNETTE ISLAND'), 
+			(SELECT geom FROM airportsNew WHERE name LIKE 'ATKA'))))
 );
 
 SELECT * FROM airportsNew
