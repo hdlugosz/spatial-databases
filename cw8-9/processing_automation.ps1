@@ -17,7 +17,7 @@ $zipToDownload = "https://home.agh.edu.pl/~wsarlej/Customers_Nov2021.zip"
 $dataFileName = "Customers_Nov2021"
 $zipPassword = "agh"
 $index = "306125"
-$TIMESTAMP = Get-Date -Format "MMddyyyy"
+$TIMESTAMP = Get-Date -Format "ddMMyyyy"
 
 # database related variables
 $username = "postgres"
