@@ -1,0 +1,5 @@
+@{first_name=Arabella; last_name=Mitchall; email=amitchall2@dyndns.org; lat=43.4880374; long=-8.2310576}
+@{first_name=Egor; last_name=Hynam; email=ehynamb@phpbb.com; lat=39.7271767; long=20.0598549}
+@{first_name=Wye; last_name=Botger; email=wbotgers@sitemeter.com; lat=9.128588; long=124.672209}
+@{first_name=Ferrell; last_name=Sabin; email=fsabin1d@wisc.edu; lat=27.5989477; long=68.627038}
+@{first_name=Alphonse; last_name=Nickels; email=anickels24@hugedomains.com; lat=15.6729353; long=0.5045206}
